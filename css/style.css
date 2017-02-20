@@ -1,0 +1,26 @@
+html body {
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.input-monney {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.select-type-money {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.submit-box {
+	width: 50px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.header-box {
+	width: 1280px;
+	margin: 0 auto;
+	text-align: center;
+}

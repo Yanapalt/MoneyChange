@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TEST PHP</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+
+	<form action="funnction.php" method="post">
+		<h1 align="center">Program Change Type Money</h1>
+		<div class="input-monney">
+			<div class="input-group">
+	  			<span class="input-group-addon" id="sizing-addon2">จำนวนเงิน</span>
+	  			<input type="text" class="form-control" placeholder="Money" aria-describedby="sizing-addon2" name="money">
+	  			<span class="input-group-addon" id="sizing-addon2">บาทไทย</span>
+			</div>
+		</div>
+		<br>
+		<div class="select-type-money">
+			<div class="input-group">
+				<span class="input-group-addon" id="sizing-addon2">เลือกสกุลเงิน</span>
+				<select type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" name="coin">
+					<option value="1">ปอนด์ (GBP)</option>
+					<option value="2">ยูโร (EUR)</option>
+					<option value="3">สหดอลลาร์สหรัฐอเมริกา (USD)</option>
+					<option value="4">เกาหลีวอน (KRW)</option>
+					<option value="5">เงินเยนของญี่ปุ่น (JPY)</option>
+				</select>
+			</div>
+		</div>
+		<div class="submit-box">
+			<input class="btn btn-default dropdown-toggle" type="submit" value="คำนวณ" /></input>
+		</div>
+	</form>
+
+</body>
+</html>
